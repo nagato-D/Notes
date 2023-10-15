@@ -4,6 +4,8 @@ date = 2023-10-15T11:10:01+08:00
 draft = false
 +++
 
+**Author:** Di Yu (email: yudi.0211@foxmail.com)
+
 ## Create a Markdown File
 ---
 1. Write note with [Markdown](https://en.wikipedia.org/wiki/Markdown).
