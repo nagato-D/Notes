@@ -1,0 +1,4 @@
+baseURL = 'https://nagato-D.github.io/Notes/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
