@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Note on Thin-Film Lithium Niobate | My New Hugo Site</title>
+<meta name="keywords" content="">
+<meta name="description" content="Author Di Yu
+Overview Overview Background Advantages of Lithium Niobate Traditional Waveguides on Bulky LN Preparation of LN Thin Films Etching Process for Thin-Film LN State of the Art Lasers on Thin-Film LN Cover Page Laser Design Static Characterization (Transmission Spectra &amp; Power &amp; Linewidth) Dynamical Characterization (Frequency Tuning) Second Harmonic Generation Future Work References Background The successes of manufacturing wafer-scale, high-quality thin films of LN-on-insulator (LNOI) and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible.">
+<meta name="author" content="">
+<link rel="canonical" href="https://nagato-D.github.io/Notes/posts/thirdpost/">
+<link crossorigin="anonymous" href="/Notes/assets/css/stylesheet.5cfc680b1eeaeef9efbced92d46c2a9e876b72ee14fba85846afc4cff9e6e6f8.css" integrity="sha256-XPxoCx7q7vnvvO2S1Gwqnodrcu4U&#43;6hYRq/Ez/nm5vg=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/Notes/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://nagato-D.github.io/Notes/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://nagato-D.github.io/Notes/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://nagato-D.github.io/Notes/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://nagato-D.github.io/Notes/apple-touch-icon.png">
+<link rel="mask-icon" href="https://nagato-D.github.io/Notes/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Note on Thin-Film Lithium Niobate" />
+<meta property="og:description" content="Author Di Yu
+Overview Overview Background Advantages of Lithium Niobate Traditional Waveguides on Bulky LN Preparation of LN Thin Films Etching Process for Thin-Film LN State of the Art Lasers on Thin-Film LN Cover Page Laser Design Static Characterization (Transmission Spectra &amp; Power &amp; Linewidth) Dynamical Characterization (Frequency Tuning) Second Harmonic Generation Future Work References Background The successes of manufacturing wafer-scale, high-quality thin films of LN-on-insulator (LNOI) and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nagato-D.github.io/Notes/posts/thirdpost/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-10-15T17:08:36+08:00" />
+<meta property="article:modified_time" content="2023-10-15T17:08:36+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Note on Thin-Film Lithium Niobate"/>
+<meta name="twitter:description" content="Author Di Yu
+Overview Overview Background Advantages of Lithium Niobate Traditional Waveguides on Bulky LN Preparation of LN Thin Films Etching Process for Thin-Film LN State of the Art Lasers on Thin-Film LN Cover Page Laser Design Static Characterization (Transmission Spectra &amp; Power &amp; Linewidth) Dynamical Characterization (Frequency Tuning) Second Harmonic Generation Future Work References Background The successes of manufacturing wafer-scale, high-quality thin films of LN-on-insulator (LNOI) and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://nagato-D.github.io/Notes/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Note on Thin-Film Lithium Niobate",
+      "item": "https://nagato-D.github.io/Notes/posts/thirdpost/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Note on Thin-Film Lithium Niobate",
+  "name": "Note on Thin-Film Lithium Niobate",
+  "description": "Author Di Yu\nOverview Overview Background Advantages of Lithium Niobate Traditional Waveguides on Bulky LN Preparation of LN Thin Films Etching Process for Thin-Film LN State of the Art Lasers on Thin-Film LN Cover Page Laser Design Static Characterization (Transmission Spectra \u0026amp; Power \u0026amp; Linewidth) Dynamical Characterization (Frequency Tuning) Second Harmonic Generation Future Work References Background The successes of manufacturing wafer-scale, high-quality thin films of LN-on-insulator (LNOI) and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible.",
+  "keywords": [
+    
+  ],
+  "articleBody": "Author Di Yu\nOverview Overview Background Advantages of Lithium Niobate Traditional Waveguides on Bulky LN Preparation of LN Thin Films Etching Process for Thin-Film LN State of the Art Lasers on Thin-Film LN Cover Page Laser Design Static Characterization (Transmission Spectra \u0026 Power \u0026 Linewidth) Dynamical Characterization (Frequency Tuning) Second Harmonic Generation Future Work References Background The successes of manufacturing wafer-scale, high-quality thin films of LN-on-insulator (LNOI) and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible. With rapid development in the past few years, some of these thin-film LN devices, such as optical modulators and nonlinear wavelength converters, have already outperformed their legacy counterparts realized in bulk LN crystals. Advantages of Lithium Niobate Broad transparency window, from 350 nm to 5 um; Relatively large refractive index, ~2.2 at 1550 nm; Large second-order nonlinear coefficients; Large Pockels coefficient. Traditional Waveguides on Bulky LN Traditional integrated LN devices are absed on low-index-contrast waveguides, normally formed by titanium (Ti) indiffusion or proton exchange in bulk LN. These devices have weak mode confinement, large device footprints, and reduced nonlinear efficiencies. Additionally, it is impossible to make tight bends in these diffusion-based LN waveguides, which prevents the realization of low-loss ring resonator. These limitations motivated the production of thin-film LN-on-insulator wafers.\nPreparation of LN Thin Films The development and refinement of the “Smart-Cut” technology has emerged as the standard technique for producing high-quality LN thin films. The film is split from a high-quality bulk substrate through ion slicing and thermal annealing, and is bonded to an insulating substrate.\nThe use of ion slicing with direct wafer bonding, large-scale single-crystalline LN thin films were demonstrated. Currently, LNOI wafers with sizes up to 6 inches have been made commercially available.\nEtching Process for Thin-Film LN Dry etching of LN had been notoriously difficult. Unlike most other integrated photonics platforms such as Si and silicon nitride, a proper reactive ion-etching recipe was not available for LN. Fluorine-based RIE can remove LN effectively by forming volatile, fluorinated niobium species. However, it alos forms lithium fluoride (LiF), which is non-volatile, and results in severe redeposition problems. LiF is highly resistive to further etching, and thus increases sidewall roughness and scattering loss.\nCurrently, pure physical etching with Ar ion plasma is among the most popular dry etching approaches for LNOI. There are a few challenges associated with pure physical etching.\nLow etch selectivity $\\rightarrow$ limited etch depth. Redeposition $\\rightarrow$ tilted sidewalls, angled in the 40-80 degree range. State of the Art 6-inch LNOI wafers are now commercially available. Devices with optical loss \u003c 0.1 dB/cm has been produced in several groups. Sidewall roughness results in scattering loss, the major contribution of optical loss. LN-based ring resonator with a Q-factor of $10^{7}$ has been demonstrated. Thin-film LN-based EO modulators with bandwidth \u003e 100 GHz operating at CMOS-compatible voltages have been realized. Lasers on Thin-Film LN Cover Page Overview\nPublished in Nature Communication on Sep. 12, 2022. Demonstrate a thin-film LN-based extended cavity laser, integrating with electric-optic modulator and periodically poled LN, enabling high-speed modulation/switching and second harmonic generation. Performance\nTuning rate = $2 \\times 10^{18}$ Hz/s Switching speed = 50 MHz Operation wavelength = 1580/790 nm Wavelength tunability = 10 nm Output power = 4 mW/2 uW Linewidth = 11 kHz Laser Design Components\nRSOA: reflective semiconductor optical amplifier, providing optical gain. Spot-size converter: improve the conversion efficiency by mitigating mode profile mismatch. Phase shifter: high-speed electric-optic modulator, enabling frequency tuning. PPLN: periodically poled LN for quasi-phase-matching, allowing frequency doubling and enabling two-color lasing. EOM: high-speed electric-optic modulator, controlling the mode (mis-)matching in the Vernier cavity, enabling high-speed switching. Heater: thermo-optic modulator, providing broad-band modulation. Loop mirror: Sagnac mirror with a reflectivity of 30%. Static Characterization (Transmission Spectra \u0026 Power \u0026 Linewidth) (a) LIV curve, maximal laser output power ~4 mW. (b) Straight coupling suppresses multi-mode lasing, while pulley coupling features high coupling efficiency in a broad band. (c) Characterization of thermo-optic modulation, wavelength tuning range ~20 nm. (d-e) Setup and results of noise characterization. Delayed self-heterodyne measurement: lienwidth = 15 kHz; Correlated delayed self-heterodyne phase noise characterization: linewidth = 11 kHz. Dynamical Characterization (Frequency Tuning) (a) Time-frequency spectrogram. Upper: frequency spectra of laser output versus time; Lower: relative nonlinear deviation of the laser output (\u003c 10%). (b) Same as above, but with a lower driving signal amplitude ($V_{P} = 2V$), the nonlinear deviation becomes lower. (c) Tuning efficiency (tuning range divided by driving signal amplitude). It remains almost constant when increasing the modulation speed until ~1 GHz, demonstrating great linearity. (d) Frequency tuning rate versus modulation speed. It remains linear until modulation speed = 1 GHz/frequency tuning rate = 2 EHz. (e) Time-frequency spectrogram. The laser output remains almost constant (relative variation \u003c 10%) during the frequency tuning. (f) High-speed on-off switching. Upper: laser output power; Lower: driving elcectrical signal. 50 MHz switching speed is recorded. (g) High-speed mode switching. Second Harmonic Generation (a) Schematic of second harmonic generation. (b) Optical image of the coupling port, visible light spot observed. (c) Power spectral density of the laser output in the telecom/visible band, demonstrating the two-color lasing at wavelength 1581/790 nm. (d) Quadratic dependence of visible laser power on telecom laser power. This is a feature of second harmonic generation. (e) High-speed on-off switching of the two-color lasing. Future Work Combine EO frequency modulation and intensity modulation by varying the current, enabling fully integrated optical arbitrary waveform generator. Optimize the quality factors of the resonators to support much higher speed modulation. Trough cascaded sum frequency generation, shorter wavelength at green or blue can be achieved, enabling lasing in a broader spectrum range. References Zhu, Di, et al. “Integrated photonics on thin-film lithium niobate.” Advances in Optics and Photonics 13.2 (2021): 242-352. Li, Mingxiao, et al. “Integrated pockels laser.” Nature communications 13.1 (2022): 5344. ",
+  "wordCount" : "964",
+  "inLanguage": "en",
+  "datePublished": "2023-10-15T17:08:36+08:00",
+  "dateModified": "2023-10-15T17:08:36+08:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://nagato-D.github.io/Notes/posts/thirdpost/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "My New Hugo Site",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://nagato-D.github.io/Notes/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://nagato-D.github.io/Notes/" accesskey="h" title="My New Hugo Site (Alt + H)">My New Hugo Site</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Note on Thin-Film Lithium Niobate
+    </h1>
+    <div class="post-meta"><span title='2023-10-15 17:08:36 +0800 +0800'>October 15, 2023</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p><strong>Author</strong> Di Yu</p>
+<h2 id="overview">Overview<a hidden class="anchor" aria-hidden="true" href="#overview">#</a></h2>
+<hr>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#background">Background</a></li>
+<li><a href="#advantages-of-lithium-niobate">Advantages of Lithium Niobate</a></li>
+<li><a href="#traditional-waveguides-on-bulky-ln">Traditional Waveguides on Bulky LN</a></li>
+<li><a href="#preparation-of-ln-thin-films">Preparation of LN Thin Films</a></li>
+<li><a href="#etching-process-for-thin-film-ln">Etching Process for Thin-Film LN</a></li>
+<li><a href="#state-of-the-art">State of the Art</a></li>
+<li><a href="#lasers-on-thin-film-ln">Lasers on Thin-Film LN</a>
+<ul>
+<li><a href="#cover-page">Cover Page</a></li>
+<li><a href="#laser-design">Laser Design</a></li>
+<li><a href="#static-characterization-transmission-spectra--power--linewidth">Static Characterization (Transmission Spectra &amp; Power &amp; Linewidth)</a></li>
+<li><a href="#dynamical-characterization-frequency-tuning">Dynamical Characterization (Frequency Tuning)</a></li>
+<li><a href="#second-harmonic-generation">Second Harmonic Generation</a></li>
+<li><a href="#future-work">Future Work</a></li>
+</ul>
+</li>
+<li><a href="#references">References</a></li>
+</ul>
+<h2 id="background">Background<a hidden class="anchor" aria-hidden="true" href="#background">#</a></h2>
+<hr>
+<ul>
+<li>The successes of manufacturing <strong>wafer-scale, high-quality thin films of LN-on-insulator (LNOI)</strong> and breakthroughs in nanofabrication techniques have made high-performance integrated nanophotonic components possible.</li>
+<li>With rapid development in the past few years, some of these thin-film LN devices, such as optical modulators and nonlinear wavelength converters, have already <strong>outperformed</strong> their legacy counterparts realized in bulk LN crystals.</li>
+</ul>
+<h2 id="advantages-of-lithium-niobate">Advantages of Lithium Niobate<a hidden class="anchor" aria-hidden="true" href="#advantages-of-lithium-niobate">#</a></h2>
+<hr>
+<ol>
+<li>Broad transparency window, from 350 nm to 5 um;</li>
+<li>Relatively large refractive index, ~2.2 at 1550 nm;</li>
+<li>Large second-order nonlinear coefficients;</li>
+<li>Large Pockels coefficient.</li>
+</ol>
+<h2 id="traditional-waveguides-on-bulky-ln">Traditional Waveguides on Bulky LN<a hidden class="anchor" aria-hidden="true" href="#traditional-waveguides-on-bulky-ln">#</a></h2>
+<hr>
+<p>Traditional integrated LN devices are absed on low-index-contrast waveguides, normally formed by titanium (Ti) indiffusion or proton exchange in bulk LN. These devices have <strong>weak mode confinement</strong>, <strong>large device footprints</strong>, and <strong>reduced nonlinear efficiencies</strong>. Additionally, it is impossible to make tight bends in these diffusion-based LN waveguides, which prevents the realization of low-loss ring resonator. These limitations motivated the production of thin-film LN-on-insulator wafers.</p>
+<!-- raw HTML omitted -->
+<h2 id="preparation-of-ln-thin-films">Preparation of LN Thin Films<a hidden class="anchor" aria-hidden="true" href="#preparation-of-ln-thin-films">#</a></h2>
+<hr>
+<p>The development and refinement of the &ldquo;<strong>Smart-Cut</strong>&rdquo; technology has emerged as the <strong>standard technique for producing high-quality LN thin films</strong>. The film is split from a high-quality bulk substrate through ion slicing and thermal annealing, and is bonded to an insulating substrate.</p>
+<!-- raw HTML omitted -->
+<p>The use of ion slicing with direct wafer bonding, <strong>large-scale single-crystalline LN thin films were demonstrated</strong>. Currently, <strong>LNOI wafers with sizes up to 6 inches have been made commercially available</strong>.</p>
+<h2 id="etching-process-for-thin-film-ln">Etching Process for Thin-Film LN<a hidden class="anchor" aria-hidden="true" href="#etching-process-for-thin-film-ln">#</a></h2>
+<hr>
+<p>Dry etching of LN had been notoriously difficult. Unlike most other integrated photonics platforms such as Si and silicon nitride, <strong>a proper reactive ion-etching recipe was not available for LN</strong>. Fluorine-based RIE can remove LN effectively by forming volatile, fluorinated niobium species. However, it alos forms lithium fluoride (LiF), which is non-volatile, and results in severe redeposition problems. LiF is highly resistive to further etching, and thus increases sidewall roughness and scattering loss.</p>
+<p>Currently, <strong>pure physical etching</strong> with Ar ion plasma is among the <strong>most popular dry etching approaches</strong> for LNOI. There are a few challenges associated with pure physical etching.</p>
+<ul>
+<li>Low etch selectivity $\rightarrow$ limited etch depth.</li>
+<li>Redeposition $\rightarrow$ tilted sidewalls, angled in the 40-80 degree range.</li>
+</ul>
+<h2 id="state-of-the-art">State of the Art<a hidden class="anchor" aria-hidden="true" href="#state-of-the-art">#</a></h2>
+<hr>
+<ul>
+<li>6-inch LNOI wafers are now commercially available.</li>
+<li>Devices with optical loss <strong>&lt; 0.1 dB/cm</strong> has been produced in several groups.</li>
+<li>Sidewall roughness results in <strong>scattering loss</strong>, the major contribution of optical loss.</li>
+<li>LN-based ring resonator with a Q-factor of <strong>$10^{7}$</strong> has been demonstrated.</li>
+<li>Thin-film LN-based EO modulators with bandwidth <strong>&gt; 100 GHz</strong> operating at CMOS-compatible voltages have been realized.</li>
+</ul>
+<h2 id="lasers-on-thin-film-ln">Lasers on Thin-Film LN<a hidden class="anchor" aria-hidden="true" href="#lasers-on-thin-film-ln">#</a></h2>
+<hr>
+<h3 id="cover-page">Cover Page<a hidden class="anchor" aria-hidden="true" href="#cover-page">#</a></h3>
+<!-- raw HTML omitted -->
+<p><strong>Overview</strong></p>
+<ul>
+<li>Published in <strong>Nature Communication</strong> on Sep. 12, 2022.</li>
+<li>Demonstrate a thin-film LN-based extended cavity laser, integrating with electric-optic modulator and periodically poled LN, enabling high-speed modulation/switching and second harmonic generation.</li>
+</ul>
+<p><strong>Performance</strong></p>
+<ul>
+<li><strong>Tuning rate = $2 \times 10^{18}$ Hz/s</strong></li>
+<li>Switching speed = 50 MHz</li>
+<li><strong>Operation wavelength = 1580/790 nm</strong></li>
+<li>Wavelength tunability = 10 nm</li>
+<li>Output power = 4 mW/2 uW</li>
+<li>Linewidth = 11 kHz</li>
+</ul>
+<h3 id="laser-design">Laser Design<a hidden class="anchor" aria-hidden="true" href="#laser-design">#</a></h3>
+<!-- raw HTML omitted -->
+<p><strong>Components</strong></p>
+<ul>
+<li>RSOA: reflective semiconductor optical amplifier, providing optical gain.</li>
+<li>Spot-size converter: improve the conversion efficiency by mitigating mode profile mismatch.</li>
+<li>Phase shifter: high-speed electric-optic modulator, enabling frequency tuning.</li>
+<li>PPLN: periodically poled LN for quasi-phase-matching, allowing frequency doubling and enabling two-color lasing.</li>
+<li>EOM: high-speed electric-optic modulator, controlling the mode (mis-)matching in the Vernier cavity, enabling high-speed switching.</li>
+<li>Heater: thermo-optic modulator, providing broad-band modulation.</li>
+<li>Loop mirror: Sagnac mirror with a reflectivity of 30%.</li>
+</ul>
+<h3 id="static-characterization-transmission-spectra--power--linewidth">Static Characterization (Transmission Spectra &amp; Power &amp; Linewidth)<a hidden class="anchor" aria-hidden="true" href="#static-characterization-transmission-spectra--power--linewidth">#</a></h3>
+<!-- raw HTML omitted -->
+<ul>
+<li>(a) LIV curve, maximal laser <strong>output power ~4 mW</strong>.</li>
+<li>(b) Straight coupling suppresses multi-mode lasing, while pulley coupling features high coupling efficiency in a broad band.</li>
+<li>(c) Characterization of thermo-optic modulation, <strong>wavelength tuning range ~20 nm</strong>.</li>
+<li>(d-e) Setup and results of noise characterization. <strong>Delayed self-heterodyne measurement: lienwidth = 15 kHz; Correlated delayed self-heterodyne phase noise characterization: linewidth = 11 kHz</strong>.</li>
+</ul>
+<h3 id="dynamical-characterization-frequency-tuning">Dynamical Characterization (Frequency Tuning)<a hidden class="anchor" aria-hidden="true" href="#dynamical-characterization-frequency-tuning">#</a></h3>
+<!-- raw HTML omitted -->
+<ul>
+<li>(a) Time-frequency spectrogram. Upper: frequency spectra of laser output versus time; Lower: <strong>relative nonlinear deviation of the laser output (&lt; 10%)</strong>.</li>
+<li>(b) Same as above, but with a <strong>lower driving signal amplitude</strong> ($V_{P} = 2V$), the <strong>nonlinear deviation becomes lower</strong>.</li>
+<li>(c) Tuning efficiency (tuning range divided by driving signal amplitude). It remains almost constant when increasing the modulation speed until ~1 GHz, demonstrating <strong>great linearity</strong>.</li>
+<li>(d) Frequency tuning rate versus modulation speed. It remains linear until modulation speed = 1 GHz/<strong>frequency tuning rate = 2 EHz</strong>.</li>
+<li>(e) Time-frequency spectrogram. The laser output remains almost constant (relative variation &lt; 10%) during the frequency tuning.</li>
+<li>(f) High-speed on-off switching. Upper: laser output power; Lower: driving elcectrical signal. <strong>50 MHz switching speed is recorded</strong>.</li>
+<li>(g) High-speed mode switching.</li>
+</ul>
+<h3 id="second-harmonic-generation">Second Harmonic Generation<a hidden class="anchor" aria-hidden="true" href="#second-harmonic-generation">#</a></h3>
+<!-- raw HTML omitted -->
+<ul>
+<li>(a) Schematic of second harmonic generation.</li>
+<li>(b) Optical image of the coupling port, visible light spot observed.</li>
+<li>(c) Power spectral density of the laser output in the telecom/visible band, <strong>demonstrating the two-color lasing</strong> at wavelength 1581/790 nm.</li>
+<li>(d) <strong>Quadratic dependence of visible laser power on telecom laser power</strong>. This is a feature of second harmonic generation.</li>
+<li>(e) High-speed on-off switching of the two-color lasing.</li>
+</ul>
+<h3 id="future-work">Future Work<a hidden class="anchor" aria-hidden="true" href="#future-work">#</a></h3>
+<ul>
+<li>Combine EO frequency modulation and intensity modulation by varying the current, enabling <strong>fully integrated optical arbitrary waveform generator</strong>.</li>
+<li>Optimize the quality factors of the resonators to support much <strong>higher speed modulation</strong>.</li>
+<li>Trough cascaded sum frequency generation, shorter wavelength at green or blue can be achieved, enabling lasing in a <strong>broader spectrum range</strong>.</li>
+</ul>
+<h2 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h2>
+<hr>
+<ol>
+<li>Zhu, Di, et al. &ldquo;Integrated photonics on thin-film lithium niobate.&rdquo; Advances in Optics and Photonics 13.2 (2021): 242-352.</li>
+<li>Li, Mingxiao, et al. &ldquo;Integrated pockels laser.&rdquo; Nature communications 13.1 (2022): 5344.</li>
+</ol>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2023 <a href="https://nagato-D.github.io/Notes/">My New Hugo Site</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
