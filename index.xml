@@ -6,14 +6,34 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Oct 2023 08:59:37 +0800</lastBuildDate><atom:link href="https://nagato-D.github.io/Notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Oct 2023 11:12:31 +0800</lastBuildDate><atom:link href="https://nagato-D.github.io/Notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
+      <title>index</title>
+      <link>https://nagato-D.github.io/Notes/docs/test3/</link>
+      <pubDate>Sun, 15 Oct 2023 11:12:31 +0800</pubDate>
+      
+      <guid>https://nagato-D.github.io/Notes/docs/test3/</guid>
+      <description>Introduction we may put a table of contents here.</description>
+    </item>
+    
+    <item>
+      <title>Note on Deploying a Website on Github</title>
+      <link>https://nagato-D.github.io/Notes/docs/test2/</link>
+      <pubDate>Sun, 15 Oct 2023 11:10:01 +0800</pubDate>
+      
+      <guid>https://nagato-D.github.io/Notes/docs/test2/</guid>
+      <description>Create a Markdown File Write note with Markdown. Convert the Markdown File to a Local Website Install hugo and configure the website folder Install Hugo following the guidance. Install powershell. Open powershell and change the directory to the location you want to place the website files by running cd &amp;lt;loc&amp;gt;. Create a new site using Hugo by running hugo new site &amp;lt;site_name&amp;gt; in powershell. Edit the hugo.toml file, leaving baseURL empty for now.</description>
+    </item>
+    
+    <item>
+      <title>Note on Presentation on Topological Optics</title>
       <link>https://nagato-D.github.io/Notes/docs/test/</link>
       <pubDate>Sun, 15 Oct 2023 08:59:37 +0800</pubDate>
       
       <guid>https://nagato-D.github.io/Notes/docs/test/</guid>
-      <description>This is a test page. This is a test page.</description>
+      <description>Author Di Yu
+Note: This document serves as a note for Prof. Zhang Xiang&amp;rsquo;s presentation at HKU on October 14, 2023.
+Questions Answered in this Note How is the 5D synthetic dimension defined? How to realize the 5D topologically nontrivial material in experiments? How is the sample fabricate? What measurements have been made? What experimental evidences are provided to support the existence of generalized chiral zero modes? Background Graphene, as a gapless 2D material, has a special effective Hamiltonian $\hat{H} = k_{x}\hat{\sigma}{x} + k{y}\hat{\sigma}{y}$, where $\hat{\sigma}{x,y}$ are two anti-commute operators.</description>
     </item>
     
   </channel>
