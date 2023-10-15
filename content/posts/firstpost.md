@@ -50,6 +50,13 @@ draft = false
 2. Waiting for Github to deploy your website.
 3. Access your website at `https://<user_name>.github.io/<repo_name>/`.
 
+## How to Update the Website
+---
+1. Add (`hugo new <path/filename>`) or modify the markdown files in the `content` folder (remember to set `draft` keyword to `false` for markdown files in the `content` folder).
+2. Run `hugo server` to rebuild the website locally.
+3. Post the website online: `git add .` --> `git commit -m "message"` --> git push.
+4. Verify the release.
+
 ## Reference
 ---
 1. [Deploy Hugo Blog to Github Pages via Github Actions w/ a Custom Domain](https://www.youtube.com/watch?v=_QSr2_pxIJs)
