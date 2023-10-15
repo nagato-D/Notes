@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>https://nagato-D.github.io/Notes/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://nagato-D.github.io/Notes/posts/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Oct 2023 11:54:47 +0800</lastBuildDate><atom:link href="https://nagato-D.github.io/Notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Oct 2023 11:54:47 +0800</lastBuildDate><atom:link href="https://nagato-D.github.io/Notes/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Note on Presentation on Topological Optics</title>
       <link>https://nagato-D.github.io/Notes/posts/secondpost/</link>
@@ -16,15 +16,6 @@
       <description>Author: Di Yu (email: yudi.0211@foxmail.com)
 Note: This document serves as a note for Prof. Zhang Xiang&amp;rsquo;s presentation at HKU on October 14, 2023.
 Questions Answered in this Note How is the 5D synthetic dimension defined? How to realize the 5D topologically nontrivial material in experiments? How is the sample fabricate? What measurements have been made? What experimental evidences are provided to support the existence of generalized chiral zero modes? Background Graphene, as a gapless 2D material, has a special effective Hamiltonian $\hat{H} = k_{x}\hat{\sigma}{x} + k{y}\hat{\sigma}{y}$, where $\hat{\sigma}{x,y}$ are two anti-commute operators.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://nagato-D.github.io/Notes/about/</link>
-      <pubDate>Sun, 15 Oct 2023 11:54:34 +0800</pubDate>
-      
-      <guid>https://nagato-D.github.io/Notes/about/</guid>
-      <description>This is a test index page </description>
     </item>
     
     <item>
