@@ -57,8 +57,25 @@ draft = false
 3. Post the website online: `git add .` --> `git commit -m "message"` --> git push.
 4. Verify the release.
 
+## How to Configure Website
+---
+1. Copy the contents in `themes/<theme_name>/config.toml` to `hugo.toml`.
+2. Modify the parameters specified in `hugo.toml`, such as website title, avatarURL, and social links.
+3. In order to add a menu in the homepage, like the tags in the right top, following the menu setting in the [`config.toml`](https://github.com/dillonzq/LoveIt/blob/master/exampleSite/config.toml) file to configure the `hugo.toml` file in the website root directory.
+4. A recommended file structure/organization of the contents can be found [here](https://github.com/dillonzq/LoveIt/tree/master/exampleSite).
+
+## Add Icons
+---
++ LoveIt utilizes the icon library provided by [Font Awesome](https://fontawesome.com/icons) for seamless integration of icons into your content.
+
++ Icon references adhere to markdown syntax. To incorporate an icon, simply use the format `:icon_name:`, where the specific `icon_name` can be found on the Font Awesome website.
+
++ As an illustration, let's say you want to insert a code icon. You can locate the corresponding HTML code [here](https://fontawesome.com/icons/code?f=classic&s=solid), which is `<i class="fa-solid fa-code"></i>`. Subsequently, you can introduce the code icon using `:fa-solid fa-code:`, with the `fa-solid fa-code` (namely `icon_name`) derived directly from the HTML code.
+
 ## Reference
 ---
 1. [Deploy Hugo Blog to Github Pages via Github Actions w/ a Custom Domain](https://www.youtube.com/watch?v=_QSr2_pxIJs)
 2. [Deploying a Blog Powered by Hugo to Github Pages w/ Custom Domain via Github Actions](https://theplaybook.dev/docs/deploy-hugo-to-github-pages/)
 3. [Hugo: Host on GitHub Pages](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+4. [LoveIt Theme Documentation - Content
+](https://hugoloveit.com/theme-documentation-content/#fontawesome)
